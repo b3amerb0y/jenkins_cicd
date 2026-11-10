@@ -14,7 +14,7 @@ class TestCalculadora(unittest.TestCase):
         self.assertEqual(multiplicar(5,3),15)
 
     def test_dividir(self):
-        self.assertEqual(dividir(15,2),9)
+        self.assertEqual(dividir(18,2),9)
 
 if __name__ == '__main__':
     unittest.main()
